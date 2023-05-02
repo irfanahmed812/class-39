@@ -1,0 +1,134 @@
+footer {
+    background-color: #c28677;
+    backdrop-filter: blur(25px);
+    padding: 30px 0;
+}
+
+.single-content {
+    padding: 115px 0;
+    text-align: center;
+}
+
+.single-box p {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    color: #FFFFFF;
+}
+
+.single-box h4 {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.single-box h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.single-box .card-area {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.single-box ul li {
+    list-style: none;
+}
+
+.single-box ul li a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.single-box ul li a:hover {
+    text-decoration: underline;
+}
+
+.single-box h2 {
+    color: #ffff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#basic-addon2 {
+    background: #fe1e4f;
+    color: #fff;
+}
+
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: -32px;
+}
+
+.footer-deg span {
+    background: #54bb81;
+    width: 100%;
+    height: 1px;
+    display: block;
+}
+
+.footer-li a {
+    text-decoration: none;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer-li a:hover {
+    text-decoration: underline;
+}
+
+.copy span {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.social img {
+    width: 16px;
+}
+
+@media (max-width: 767px) {
+    .single-box {
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-box {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width:425px) {
+    .abcd {
+        text-align: center;
+    }
+}

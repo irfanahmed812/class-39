@@ -1,0 +1,49 @@
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-expand-lg .navbar-nav {
+    align-items: center;
+}
+
+.sign-in {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #121920;
+    border: 1px solid #121920;
+    border-radius: 8px;
+    padding: 5px;
+    /* padding: 12px 24px; */
+}
+
+.sign-up {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    background: #F49900;
+    border-radius: 8px;
+    /* padding: 12px 24px; */
+    padding: 5px;
+}
+
+.nav-link {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.005em;
+    color: #121920;
+}
+
+@media screen and (max-width: 768px) {
+    .sign-up {
+        margin-top: 5px;
+    }
+}
